@@ -1,0 +1,117 @@
+body{
+    font-size: 1em;
+    background-color: lightskyblue;
+    bottom: 100px;
+    margin-right: auto;
+}
+html *{
+    box-sizing: border-box;
+}
+*:before, *:after{
+    box-sizing: border-box;
+}
+h1{
+    position: relative;
+    width: 300px;
+    margin-left: 120px;
+    font-size: 40px;
+    top: 150px;
+}
+h2{
+    position: relative;
+    font-size: 40px;
+    top:30px;
+    left:15px;
+}
+
+.icon{
+    position: relative;
+    bottom:100px;
+    left: 140px;
+}
+.sun{
+    position: relative;
+    bottom:140px;
+    left: 240px;
+}
+.spec{
+    position: relative;
+    left: 70px;
+    font-size: 25px;
+}
+h3{
+    position: relative;
+    bottom:140px;
+    left: 150px;
+    font-size: 35px;
+}
+h4{
+    position: relative;
+    bottom:160px;
+    left: 70px;
+}
+.under{
+    position: relative;
+    bottom:160px;
+    font-size: 26px;
+}
+.table{
+    position: relative;
+    bottom:160px;
+    left: 10px;
+}
+.table, th, td{
+    border: 1px solid black;
+    font-size: 30px;
+}
+.table2{
+    position: relative;
+    bottom:160px;
+    left: 100px;
+}
+.table2, th, td{
+    border: 1px solid black;
+    font-size: 30px;
+    left: 100px;
+}
+header{
+    background-color: darkgrey;
+    width: 500px;
+    height: 200px;
+}
+nav{
+    background-color: silver;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 50px;
+}
+table{
+    position: relative;
+    display: table-cell;
+    bottom:160px;
+    left: 10px;
+}
+#li{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    bottom: 80px;
+}
+main{
+    position: relative;
+    background-color: lightblue;
+    width: 500px;
+    bottom: 50px;
+}
+.wire{
+    position: relative;
+    font-size: 35px;
+    bottom: 150px;
+}
+.mobile{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
