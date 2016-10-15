@@ -96,7 +96,7 @@ table{
     bottom:160px;
     left: 10px;
 }
-#li2{
+.li2{
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
