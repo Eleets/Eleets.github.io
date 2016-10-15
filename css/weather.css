@@ -75,16 +75,20 @@ h4{
     left: 100px;
 }
 header{
+    position: relative;
     background-color: darkgrey;
     width: 500px;
     height: 200px;
+    left: 70px;
 }
 nav{
+    position: relative;
     background-color: silver;
     width: 500px;
     height: 50px;
     font-size: 30px;
     padding-top: 50px;
+    left: 70px;
 }
 table{
     position: relative;
@@ -104,6 +108,7 @@ main{
     background-color: lightblue;
     width: 500px;
     bottom: 50px;
+    left: 70px;
 }
 .wire{
     position: relative;
