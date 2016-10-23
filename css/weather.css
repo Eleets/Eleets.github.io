@@ -20,8 +20,9 @@ h1{
 h2{
     position: relative;
     font-size: 40px;
-    top:30px;
-    left:15px;
+    margin-right: 30px;
+    top:20px;
+    left:150px;
 }
 
 .icon{
@@ -31,17 +32,19 @@ h2{
 }
 .sun{
     position: relative;
-    bottom:140px;
-    left: 240px;
+    bottom:90px;
+    left: 140px;
 }
 .spec{
     position: relative;
-    left: 70px;
+    margin-right: 5px;
+    left: 200px;
+    top: 210px;
     font-size: 25px;
 }
 h3{
     position: relative;
-    bottom:140px;
+   margin-right: 20px;
     left: 150px;
     font-size: 35px;
 }
@@ -50,36 +53,13 @@ h4{
     bottom:160px;
     left: 70px;
 }
-.under{
-    position: relative;
-    bottom:160px;
-    font-size: 26px;
-}
-.table{
-    position: relative;
-    bottom:160px;
-    left: 10px;
-}
-.table, th, td{
-    border: 1px solid black;
-    font-size: 30px;
-}
-.table2{
-    position: relative;
-    bottom:160px;
-    left: 100px;
-}
-.table2, th, td{
-    border: 1px solid black;
-    font-size: 30px;
-    left: 100px;
-}
 header{
     position: relative;
     background-color: darkgrey;
     width: 500px;
     height: 200px;
     left: 70px;
+    margin-right: auto;
 }
 nav{
     position: relative;
@@ -90,12 +70,66 @@ nav{
     padding-top: 50px;
     left: 70px;
 }
-table{
+.under{
     position: relative;
-    display: table-cell;
-    bottom:160px;
-    left: 10px;
+    bottom:10px;
+    font-size: 26px;
 }
+
+/*phone screen*/
+@media screen and (max-width:450px){
+    .table{
+        display: none;
+        }
+    .table2
+    {
+        display: none;
+    }
+    .wire{
+        position: relative;
+        left: 130px;
+        top: 5px;
+    }
+    .mobile{
+        position: relative;
+
+        top: 1px;
+        margin-right: auto;
+    }
+}
+/*tablet screen*/
+@media screen and (min-width:451px){
+    .table{
+        position: relative;
+        bottom:10px;
+        left: 10px;
+}
+    .table, th, td{
+        border: 1px solid black;
+        font-size: 30px;
+}
+    .table2{
+        position: relative;
+        bottom:672px;
+}
+    .table2, th, td{
+        border: 1px solid black;
+        font-size: 40px;
+        left: 265px;
+}
+    .wire{
+        position: relative;
+        font-size: 35px;
+
+    }
+    .mobile{
+        position: relative;
+        bottom: 400px;
+        left: 50px;
+    }
+
+}
+
 .li2{
     position: relative;
     padding-left: 10px;
@@ -105,7 +139,7 @@ table{
 }
 main{
     position: relative;
-    background-color: lightblue;
+    background-color: white;
     width: 500px;
     bottom: 50px;
     left: 70px;
@@ -120,3 +154,44 @@ main{
     bottom: 150px;
     left: 50px;
 }
+
+/*full size screen*/
+@media screen and (min-width:900px) and (max-width:5000px){
+
+    body{
+        background-color: white;
+    }
+    header{
+        width: 100%;
+        overflow: hidden
+    }
+
+    h1{
+        position: relative;
+        left: 160px;
+        top: 20px;
+    }
+    .icon{
+        right: 100px;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        bottom: auto;
+    }
+    h2{
+        position: relative;
+        left: 1px;
+        overflow: hidden;
+    }
+    .spec{
+        overflow: hidden;
+        left: 1px;
+        top: 300px
+    }
+    .mobile{
+        display: none;
+    }
+}
+
