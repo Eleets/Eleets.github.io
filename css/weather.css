@@ -6,22 +6,26 @@ body{
 }
 
 header{
-    background-color: aqua;
+   /* background-color: aqua;*/
     flex-basis: 100%;
+    font-size: 40px;
 
 }
 
 nav{
-    background-color: red;
+    /*background-color: red;*/
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
-    flex-flow: row;
+    flex-flow: column;
+    padding: 20px;
+    font-size: 40px;
 }
 
 main{
-    background-color: yellow;
+    /*background-color: yellow;*/
     flex-grow: 5;
+    font-size: 40px;
 }
 .table, .table2{
     display: none;
@@ -31,14 +35,19 @@ main{
 }
 
 footer{
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
     flex-basis: 100%;
+    font-size: 40px;
 }
 
 /*----------------------------------------
 
 /*tablet screen*/
-@media screen and (min-width:451px){
+@media screen and (min-width:451px)and (max-width:899px){
+
+    nav{
+        flex-flow: row;
+    }
     .table, .table2{
         display: inherit;
     }
@@ -52,14 +61,21 @@ footer{
 }
 
 /*full size screen*/
-@media screen and (min-width:900px) and (max-width:3000px){
+@media screen and (min-width:900px){
+    body{
+        display: flex;
+        flex-direction: row;
+        text-align:left;
+    }
+
+    nav{
+        flex-flow: row;
+    }
+
     .table, .table2{
         display: inherit;
     }
-    .frame0{
-        display: none;
-    }
-    .frame1{
+    .frame1, .frame0{
         display: none;
     }
     .frame2{
@@ -68,7 +84,7 @@ footer{
 
 }
 
-
+/*flex: 1 25%:
 
 
 
