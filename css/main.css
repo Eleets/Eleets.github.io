@@ -1,0 +1,12 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav{
+    background-color: dimgray;
+    border-radius: 7px;
+
+}
